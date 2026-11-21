@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glassbox-mcp"
+version = "0.2.0"
+description = "The Flight Recorder & Lethal-Trifecta Firewall for AI Agents (MCP — stdio + Streamable HTTP). Zero-dependency dynamic taint lattice, MCP annotation awareness, schema pinning, and $0 offline time-travel replay."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "GlassBox Contributors"}
+]
+keywords = [
+    "mcp",
+    "ai-agents",
+    "security",
+    "prompt-injection",
+    "time-travel-debugging",
+    "claude-code",
+    "cursor",
+    "information-flow-control",
+    "firewall",
+    "replay"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Software Development :: Debuggers",
+]
+dependencies = []
+
+[project.scripts]
+glassbox = "glassbox.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
