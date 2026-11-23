@@ -32,13 +32,13 @@ Then in your new GitHub repo's **Settings → General → Social Preview**:
 
 ---
 
-## Step 3 — Publish `glassbox-mcp` to PyPI So Users Can Run `uvx glassbox-mcp demo` (2 Minutes)
+## Step 3 — Publish `glassbox-firewall` to PyPI So Users Can Run `uvx glassbox-firewall demo` (2 Minutes)
 
 Zero-friction `uvx` / `pip install` install is one of the biggest multipliers for GitHub star conversion. This repo already includes `.github/workflows/release.yml` configured for PyPI Trusted Publishing:
 
 1. Create a free account at [pypi.org](https://pypi.org) (enable 2FA).
 2. Go to **PyPI → Your Account → Publishing → Add a new pending publisher**:
-   - PyPI Project Name: `glassbox-mcp`
+   - PyPI Project Name: `glassbox-firewall`
    - Owner: `<your-github-username>`
    - Repository name: `glassbox`
    - Workflow name: `release.yml`
@@ -47,7 +47,7 @@ Zero-friction `uvx` / `pip install` install is one of the biggest multipliers fo
    git tag v0.2.0
    git push origin v0.2.0
    ```
-4. GitHub Actions automatically runs all 10 tests, builds the wheel, and publishes `glassbox-mcp` to PyPI. Anyone in the world can now run `uvx glassbox-mcp demo` in one command!
+4. GitHub Actions automatically runs all 10 tests, builds the wheel, and publishes `glassbox-firewall` to PyPI. Anyone in the world can now run `uvx glassbox-firewall demo` in one command!
 
 ---
 

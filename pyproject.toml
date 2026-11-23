@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "glassbox-mcp"
+name = "glassbox-firewall"
 version = "0.2.0"
 description = "The Flight Recorder & Lethal-Trifecta Firewall for AI Agents (MCP — stdio + Streamable HTTP). Zero-dependency dynamic taint lattice, MCP annotation awareness, schema pinning, and $0 offline time-travel replay."
 readme = "README.md"

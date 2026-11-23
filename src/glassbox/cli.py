@@ -253,7 +253,7 @@ def build_parser() -> argparse.ArgumentParser:
         prog="glassbox",
         description="GlassBox: Wire-level MCP Flight Recorder & Dynamic Taint-Lattice Firewall (stdio + Streamable HTTP).",
     )
-    parser.add_argument("--version", action="version", version=f"glassbox-mcp {__version__}")
+    parser.add_argument("--version", action="version", version=f"glassbox-firewall {__version__}")
     sub = parser.add_subparsers(dest="command", required=True)
 
     p_demo = sub.add_parser("demo", help="Run the 30-second keyless live MCP attack & time-travel demo")

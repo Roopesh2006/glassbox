@@ -17,7 +17,7 @@ Wrap any local stdio or remote Streamable HTTP MCP server in one command. Determ
 
 ```bash
 # Once published to PyPI (see DEPLOY.md):
-uvx glassbox-mcp demo
+uvx glassbox-firewall demo
 
 # Or from source right now:
 git clone https://github.com/Roopesh2006/glassbox.git
