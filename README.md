@@ -20,7 +20,7 @@ Wrap any local stdio or remote Streamable HTTP MCP server in one command. Determ
 uvx glassbox-mcp demo
 
 # Or from source right now:
-git clone https://github.com/<Roopesh2006>/glassbox.git
+git clone https://github.com/Roopesh2006/glassbox.git
 cd glassbox
 pip install -e .
 
